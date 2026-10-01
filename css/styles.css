@@ -319,7 +319,7 @@ main:focus { outline: none; }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky;
-  top: 0;
+  top: env(safe-area-inset-top, 0px);
   z-index: 50;
   height: var(--header-h);
   background: transparent;
